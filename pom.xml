@@ -46,26 +46,28 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<tag>HEAD</tag>
 	</scm>
 
-	<dependencies>
-		<dependency>
-			<groupId>com.semanticcms</groupId>
-			<artifactId>semanticcms-section-model</artifactId>
-			<version>1.2-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.semanticcms</groupId>
-			<artifactId>semanticcms-section-servlet</artifactId>
-			<version>1.2-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.semanticcms</groupId>
-			<artifactId>semanticcms-section-style</artifactId>
-			<version>1.2-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.semanticcms</groupId>
-			<artifactId>semanticcms-section-taglib</artifactId>
-			<version>1.2-SNAPSHOT</version>
-		</dependency>
-	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.semanticcms</groupId>
+				<artifactId>semanticcms-section-model</artifactId>
+				<version>1.2-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.semanticcms</groupId>
+				<artifactId>semanticcms-section-servlet</artifactId>
+				<version>1.2-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.semanticcms</groupId>
+				<artifactId>semanticcms-section-style</artifactId>
+				<version>1.2-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.semanticcms</groupId>
+				<artifactId>semanticcms-section-taglib</artifactId>
+				<version>1.2-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
