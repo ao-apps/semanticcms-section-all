@@ -38,6 +38,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 	<name>SemanticCMS Section All</name>
 	<url>https://semanticcms.com/section/all/</url>
 	<description>Convenience POM to include most sections nested within SemanticCMS pages and elements features, not including documentation or examples.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-section-all.git</connection>
