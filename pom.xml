@@ -27,7 +27,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms-section</artifactId>
-		<version>1.2</version>
+		<version>1.3-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -36,7 +36,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS Section All</name>
-	<url>https://semanticcms.com/docs/semanticcms-section-all/</url>
+	<url>https://semanticcms.com/section/all/</url>
 	<description>Convenience POM to include most sections nested within SemanticCMS pages and elements features, not including documentation or examples.</description>
 
 	<scm>
@@ -50,22 +50,22 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-model</artifactId>
-			<version>1.3</version>
+			<version>1.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-servlet</artifactId>
-			<version>1.3</version>
+			<version>1.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-style</artifactId>
-			<version>1.3</version>
+			<version>1.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-taglib</artifactId>
-			<version>1.3</version>
+			<version>1.4-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
