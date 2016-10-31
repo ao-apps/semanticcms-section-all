@@ -57,7 +57,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.2.1"
-			dateCreated="2016-10-20T19:39:00-0500"
+			datePublished="2016-10-20T19:39:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -71,7 +71,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.2.0"
-			dateCreated="2016-10-04T23:22:00-0500"
+			datePublished="2016-10-04T23:22:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -84,7 +84,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.1.1"
-			dateCreated="2016-10-04T23:21:00-0500"
+			datePublished="2016-10-04T23:21:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -97,7 +97,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.1.0"
-			dateCreated="2016-10-04T23:10:00-0500"
+			datePublished="2016-10-04T23:10:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -111,7 +111,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.1"
-			dateCreated="2016-09-11T17:08:00-0500"
+			datePublished="2016-09-11T17:08:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -124,7 +124,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		<changelog:release
 			projectName="@{project.name}"
 			version="1.0"
-			dateCreated="2016-09-03T10:50:00-0500"
+			datePublished="2016-09-03T10:50:00-0500"
 			groupId="@{project.groupId}"
 			artifactId="@{project.artifactId}"
 			scmUrl="@{project.scm.url}"
