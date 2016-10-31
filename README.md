@@ -3,6 +3,7 @@ Convenience POM to include most [SemanticCMS Section](https://semanticcms.com/se
 
 ## Project Links
 * [Project Home](https://semanticcms.com/section/all/)
+* [Changelog](https://semanticcms.com/section/all/changelog)
 * [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-section-all%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-section-all)
 
