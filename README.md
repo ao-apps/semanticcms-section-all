@@ -34,6 +34,7 @@ Convenience POM to include most [SemanticCMS Section](https://semanticcms.com/se
 
 ## Modules Included
 * [SemanticCMS Section Model](https://semanticcms.com/section/model/)
+* [SemanticCMS Section Renderer HTML](https://semanticcms.com/section/renderer/html/)
 * [SemanticCMS Section Servlet](https://semanticcms.com/section/servlet/)
 * [SemanticCMS Section Style](https://semanticcms.com/section/style/)
 * [SemanticCMS Section Taglib](https://semanticcms.com/section/taglib/)

@@ -37,7 +37,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T02:02:05-0500"
-		dateModified="2017-08-21T19:59:14-0500"
+		dateModified="2017-08-27T13:43:59-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-section-all:pom.version}" />
@@ -55,7 +55,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			>
 				<ul>
 					<li>Updated version of <core:link book="/section/servlet" page="/" />.</li>
+					<li>Updated version of <core:link book="/section/style" page="/" />.</li>
 					<li>Updated version of <core:link book="/section/taglib" page="/" />.</li>
+					<li>New module <core:link book="/section/renderer/html" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
