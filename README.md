@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [Section](https://semanticcms.com/section/) / [All](https://semanticcms.com/section/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [Section](https://github.com/aoindustries/semanticcms-section) / [All](https://github.com/aoindustries/semanticcms-section-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -24,7 +24,7 @@
 	</a>
 </p>
 
-Convenience POM to include most [SemanticCMS Section](https://semanticcms.com/section/) features, not including documentation or examples.
+Convenience POM to include most [SemanticCMS Section](https://github.com/aoindustries/semanticcms-section) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/section/all/)
@@ -33,10 +33,10 @@ Convenience POM to include most [SemanticCMS Section](https://semanticcms.com/se
 * [GitHub](https://github.com/aoindustries/semanticcms-section-all)
 
 ## Modules Included
-* [SemanticCMS Section Model](https://semanticcms.com/section/model/)
-* [SemanticCMS Section Servlet](https://semanticcms.com/section/servlet/)
-* [SemanticCMS Section Style](https://semanticcms.com/section/style/)
-* [SemanticCMS Section Taglib](https://semanticcms.com/section/taglib/)
+* [SemanticCMS Section Model](https://github.com/aoindustries/semanticcms-section-model)
+* [SemanticCMS Section Servlet](https://github.com/aoindustries/semanticcms-section-servlet)
+* [SemanticCMS Section Style](https://github.com/aoindustries/semanticcms-section-style)
+* [SemanticCMS Section Taglib](https://github.com/aoindustries/semanticcms-section-taglib)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
