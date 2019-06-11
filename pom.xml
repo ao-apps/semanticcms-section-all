@@ -47,7 +47,6 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- TODO: semanticcms-section-bom -->
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-model</artifactId><version>1.5.0-SNAPSHOT</version>
 			</dependency>
