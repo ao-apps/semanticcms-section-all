@@ -37,7 +37,7 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T02:02:05-0500"
-		dateModified="2020-02-26T13:30:29-0600"
+		dateModified="2020-03-07T06:01:29-0600"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-section-all:pom.version}" />
@@ -49,12 +49,16 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			<changelog:release
 				projectName="@{documented.name}"
 				version="#{version}"
-				groupId="@{documented.groupId}"
+				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
-				scmUrl="@{documented.scm.url}"
+				scmUrl="@{project.scm.url}"
 			>
 				<ul>
 					<li>Minimum Java version changed from 1.7 to 1.8.</li>
+					<li>
+						Reduced use of property substitutions in <code>pom.xml</code>.
+						This is to help 3rd-party parsers that fail to perform full Maven-compatible substitutions.
+					</li>
 					<li>Updated version of <core:link book="/section/servlet" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/section/style" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/section/taglib" page="/index.jspx" />.</li>
@@ -66,9 +70,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.4.0"
 			datePublished="2019-10-12T00:28:22-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated version of <core:link book="/section/model" page="/index.jspx" />.</li>
@@ -81,9 +85,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.3.0"
 			datePublished="2019-06-22T08:53:13-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Using managed dependencies:
@@ -99,9 +103,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.2.3"
 			datePublished="2017-07-20T17:40:52-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>New release for bug fixes in underlying <ao:a href="https://aoindustries.com/ao-encoding/">AO Encoding</ao:a> library.</li>
@@ -113,9 +117,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.2.2"
 			datePublished="2016-11-16T06:15:39-0600"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
@@ -128,9 +132,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.2.1"
 			datePublished="2016-10-20T19:39:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -142,9 +146,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.2.0"
 			datePublished="2016-10-04T23:22:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated parent POM.</li>
@@ -155,9 +159,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.1.1"
 			datePublished="2016-10-04T23:21:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated parent POM.</li>
@@ -168,9 +172,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.1.0"
 			datePublished="2016-10-04T23:10:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -182,9 +186,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.1"
 			datePublished="2016-09-11T17:08:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Use dependencyManagement instead of dependency for junit.</li>
@@ -195,9 +199,9 @@ along with semanticcms-section-all.  If not, see <http://www.gnu.org/licenses />
 			projectName="@{documented.name}"
 			version="1.0"
 			datePublished="2016-09-03T10:50:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Added "all" packages for convenience.</li>
