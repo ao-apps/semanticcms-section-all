@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [Section](https://github.com/aoindustries/semanticcms-section) / [All](https://github.com/aoindustries/semanticcms-section-all)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [SemanticCMS](https://github.com/ao-apps/semanticcms) / [Section](https://github.com/ao-apps/semanticcms-section) / [All](https://github.com/ao-apps/semanticcms-section-all)
 
 [![project: current stable](https://semanticcms.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://semanticcms.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -8,7 +8,7 @@
 [![semantic versioning: 2.0.0](https://semanticcms.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://semanticcms.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/aoindustries/semanticcms-section-all/workflows/Build/badge.svg?branch=1.x)](https://github.com/aoindustries/semanticcms-section-all/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/semanticcms-section-all/workflows/Build/badge.svg?branch=1.x)](https://github.com/ao-apps/semanticcms-section-all/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-section-all/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-section-all)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-all&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.semanticcms%3Asemanticcms-section-all)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-all&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-all&metric=ncloc)  
@@ -16,19 +16,19 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-all&metric=security_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-all&metric=Security)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-all&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-all&metric=Maintainability)
 
-Convenience POM to include most [SemanticCMS Section](https://github.com/aoindustries/semanticcms-section) features, not including documentation or examples.
+Convenience POM to include most [SemanticCMS Section](https://github.com/ao-apps/semanticcms-section) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/section/all/)
 * [Changelog](https://semanticcms.com/section/all/changelog)
 * [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-section-all)
-* [GitHub](https://github.com/aoindustries/semanticcms-section-all)
+* [GitHub](https://github.com/ao-apps/semanticcms-section-all)
 
 ## Modules Included
-* [SemanticCMS Section Model](https://github.com/aoindustries/semanticcms-section-model)
-* [SemanticCMS Section Servlet](https://github.com/aoindustries/semanticcms-section-servlet)
-* [SemanticCMS Section Style](https://github.com/aoindustries/semanticcms-section-style)
-* [SemanticCMS Section Taglib](https://github.com/aoindustries/semanticcms-section-taglib)
+* [SemanticCMS Section Model](https://github.com/ao-apps/semanticcms-section-model)
+* [SemanticCMS Section Servlet](https://github.com/ao-apps/semanticcms-section-servlet)
+* [SemanticCMS Section Style](https://github.com/ao-apps/semanticcms-section-style)
+* [SemanticCMS Section Taglib](https://github.com/ao-apps/semanticcms-section-taglib)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
