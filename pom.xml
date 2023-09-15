@@ -112,8 +112,6 @@ along with semanticcms-section-all.  If not, see <https://www.gnu.org/licenses/>
             <dependency>com.semanticcms:semanticcms-section-model</dependency>
             <dependency>com.semanticcms:semanticcms-section-servlet</dependency>
             <dependency>com.semanticcms:semanticcms-section-taglib</dependency>
-            <!-- Runtime Direct -->
-            <dependency>com.semanticcms:semanticcms-section-style</dependency>
           </usedDependencies>
         </configuration>
       </plugin>
@@ -224,9 +222,9 @@ along with semanticcms-section-all.  If not, see <https://www.gnu.org/licenses/>
       </dependency>
       <!-- Runtime Transitive -->
       <!-- javaee-web-api-bom: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-impl</artifactId> -->
-      <!-- BOM -->
+      <!-- Imports -->
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -248,6 +246,12 @@ along with semanticcms-section-all.  If not, see <https://www.gnu.org/licenses/>
     <dependency>
       <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-style</artifactId>
       <scope>runtime</scope>
+    </dependency>
+    <!-- Imports (Reactor build order only) -->
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
     </dependency>
   </dependencies>
 </project>
